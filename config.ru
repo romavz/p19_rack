@@ -1,7 +1,3 @@
-require_relative 'midleware/path_validator'
-require_relative 'midleware/query_validator'
-require_relative 'time_formatter_application'
+require_relative 'application'
 
-use PathValidator
-use QueryValidator
-run TimeFormatterApplication.new
+run Application.new
